@@ -140,7 +140,4 @@ Set environment variables in Render dashboard:
 MONGODB_URI
 SESSION_SECRET
 
-## Deploy!
-
-https://taskforge-pvop.onrender.com/
 
