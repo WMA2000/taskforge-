@@ -129,4 +129,11 @@ SESSION_SECRET
 https://taskforge-pvop.onrender.com/
 
 License
-MIT License - Free for personal and commercial use.
+[MIT License - Free for personal and commercial use.](https://via.placeholder.com/150x50?text=TaskForge
+A modern task management system with authentication and real-time task tracking.
+
+https://img.shields.io/badge/Node.js-18%252B-green
+https://img.shields.io/badge/License-MIT-blue.svg
+https://img.shields.io/badge/Database-MongoDB_Atlas-brightgreen
+https://img.shields.io/badge/Deploy-Render-5f45bb
+https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
