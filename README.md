@@ -14,33 +14,29 @@ Responsive Design (Works on desktop & mobile)
 MongoDB Database (Persistent storage)
 
 ## File Structure
-bash
+```plaintext
 taskforge/
-│
 ├── models/               # Database models
-│   └── Task.js           # Mongoose schema for tasks
-│
-├── public/               # Static assets
+│   └── Task.js           # Mongoose schema and queries
+├── public/               # Static files
 │   ├── css/              # Stylesheets
-│   │   └── style.css     # Main CSS file
+│   │   └── style.css     # Main CSS
 │   └── js/               # Client-side scripts
-│       └── main.js       # (Optional) Frontend logic
-│
-├── routes/               # Application routes
-│   └── tasks.js          # All Express routes (login, tasks CRUD)
-│
+│       └── main.js       # Frontend logic
+├── routes/               # API routes
+│   └── tasks.js          # All Express endpoints
 ├── views/                # EJS templates
-│   ├── tasks.ejs         # Main dashboard (task list)
-│   ├── add-task.ejs      # Add new task form
-│   ├── edit-task.ejs     # Edit existing task
+│   ├── tasks.ejs         # Task dashboard
+│   ├── add-task.ejs      # Task creation form
+│   ├── edit-task.ejs     # Task editor
 │   └── index.ejs         # Login page
-│
-├── middleware/           # Custom middleware
-│   └── auth.js           # Authentication checks
-│
-├── .env                  # Environment variables (MONGODB_URI, etc.)
-├── app.js                # Main application entry point
-└── package.json          # Dependencies and scripts
+├── middleware/           # Auth middleware
+│   └── auth.js           # Session validation
+├── .env.example          # Env template (rename to .env)
+├── app.js                # Express setup
+└── package.json          # Dependencies
+
+```
 
 ## Setup Instructions
 
@@ -129,11 +125,16 @@ SESSION_SECRET
 https://taskforge-pvop.onrender.com/
 
 License
-[MIT License - Free for personal and commercial use.](https://via.placeholder.com/150x50?text=TaskForge
-A modern task management system with authentication and real-time task tracking.
 
-https://img.shields.io/badge/Node.js-18%252B-green
-https://img.shields.io/badge/License-MIT-blue.svg
-https://img.shields.io/badge/Database-MongoDB_Atlas-brightgreen
-https://img.shields.io/badge/Deploy-Render-5f45bb
-https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+# TaskForge - Task Management System  
+
+![TaskForge Banner](https://via.placeholder.com/1200x400?text=TaskForge+Banner)  
+*A modern task manager with authentication, CRUD operations, and real-time updates.*  
+
+[![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=node.js)](https://nodejs.org/)  
+[![Express](https://img.shields.io/badge/Express-4.x-000000?logo=express)](https://expressjs.com/)  
+[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb)](https://www.mongodb.com/atlas)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
+[![Render](https://img.shields.io/badge/Deployed_on-Render-5f45bb?logo=render)](https://render.com)  
+
+---
